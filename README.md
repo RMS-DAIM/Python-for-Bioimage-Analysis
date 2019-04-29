@@ -15,11 +15,11 @@ Images from different microscopy domains.
 
 ####  Monday (image processing and general analysis): 
 - 9:30-10:00: Introduction to course and structure.
-- 10:00-10:50: Image Analysis (discussion of software and undersanding your image)
-- 11:00-11:50: Image Processing (processing of image, convolution, filters).
+- 10:00-10:50: Image Analysis (discussion of software and undersanding your image e.g. https://tinyurl.com/y23c7s2r)
+- 11:00-11:50: Image Processing (processing of image, convolution, filters, e.g. https://tinyurl.com/y6ruhu6t).
 - 12:00-13:00: lunch
-- 13:00-14:30: Practical
-- 15:00-17:00: Practical
+- 13:00-14:30: Practical (python basic image handling e.g https://tinyurl.com/yys7x373)
+- 15:00-17:00: Practical (Fiji introduction e.g, https://tinyurl.com/yxzekefw)
 
 #### Tuesday  (segmentation and level-sets):
 - 9:30-10:00: Research spotlight talk.
@@ -31,7 +31,7 @@ Images from different microscopy domains.
 
 #### Wednesday (image correlation and registration):
 - 9:30-10:00: Research spotlight talk.
-- 10:00-10:50: Correlation and Colocalisation (e.g. image colocalisation)
+- 10:00-10:50: Correlation and Colocalisation (e.g. image colocalisation https://tinyurl.com/yxcl2nmy) 
 - 11:00-11:50: Image Registration 
 - 12:00-13:00: lunch
 - 13:00-14:30: Practical
@@ -39,7 +39,7 @@ Images from different microscopy domains.
 
 #### Thursday (tracking and time-series):
 - 9:30-10:00: Research spotlight talk.
-- 10:00-10:50: Tracking (e.g. cell tracking).
+- 10:00-10:50: Tracking (e.g. cell tracking https://tinyurl.com/yy9rm5f2).
 - 11:00-11:50: Time-series analysis (e.g. FCS, FRAP)
 - 12:00-13:00: lunch
 - 13:00-14:30: Practical
@@ -48,8 +48,8 @@ Images from different microscopy domains.
 #### Friday:
 - 9:30-10:00: Research spotlight talk.
 - 10:00-10:50: Introduction to Machine Learning for Bioimage analysis.
-- 11:00-11:50: BioImage analysis Applied machine learning.
+- 11:00-11:50: BioImage analysis Applied machine learning. (e.g. https://tinyurl.com/y3kp2yo6)
 - 12:00-13:00: lunch
 - 13:00-13:30: Course closing.
-- 13:30-15:30: Practical
+- 13:30-15:30: Practical (e.g. https://tinyurl.com/y36wn3ug).
 - 16:00-17:00: Practical
