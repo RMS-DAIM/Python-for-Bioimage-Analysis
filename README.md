@@ -1,17 +1,17 @@
 # IAFIG-RMS-bioimage-training
 Image Analysis Focused Interest Group of the Royal Microscopy Society Bioimage Analysis Course.
-Goal:
+### Goal:
 To introduce the students to image analysis theory and tools and to give them experience coding and utilising these tools on imaging data.
 
-Content:
+### Content:
 Image Analysis theory. Python and Fiji coding and exercise. 
 Images from different microscopy domains.
 
 
-Prequisites
-Python introductory course.
+### Prequisites
+- Python introductory course.
 
-Proposed structure:
+### Proposed structure:
 
 ####  Monday (image processing and general analysis): 
 - 9:30-10:00: Introduction to course and structure.
