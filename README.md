@@ -1,5 +1,6 @@
 # IAFIG-RMS-bioimage-training
 Image Analysis Focused Interest Group of the Royal Microscopy Society Bioimage Analysis Course.
+
 ### Goal:
 To introduce the students to image analysis theory and tools and to give them experience coding and utilising these tools on imaging data.
 
