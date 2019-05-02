@@ -1,5 +1,7 @@
 # IAFIG-RMS-bioimage-training
 ![RMS logo](https://github.com/IAFIG-RMS/Bioimage-training/blob/master/resources/image002small.png)
+
+
 Image Analysis Focused Interest Group of the Royal Microscopy Society Bioimage Analysis Course.
 #WORK IN PROGRESS
 
