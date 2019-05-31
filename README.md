@@ -28,7 +28,7 @@ Lectures will focus on Image Analysis theory. The bulk of the practical work wil
 - 11:00-11:50: Image Processing (processing of image, convolution, filters, e.g. https://tinyurl.com/y6ruhu6t).
 - 12:00-13:00: lunch
 - 13:00-14:30: Practical Python and Jupyter. Chas
-- 15:00-17:00: Practical Fiji to Pytohn. Todd
+- 15:00-17:00: Practical Fiji to Python. Todd
 
 #### Tuesday  (segmentation and level-sets):
 - 9:30-10:00: Research spotlight talk.
