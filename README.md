@@ -1,20 +1,22 @@
 # IAFIG-RMS-bioimage-training
-![RMS logo](https://github.com/IAFIG-RMS/Bioimage-training/blob/master/resources/image002small.png)
-
-
 Image Analysis Focused Interest Group of the Royal Microscopy Society Bioimage Analysis Course.
-#WORK IN PROGRESS
 
-### Goal:
-To introduce the students to image analysis theory and tools and to give them experience coding and utilising these tools on imaging data.
+### Aim:
+The aim of this intensive course is to develop motivated students toward becoming independent BioImage Analysts in a facility or research role.
+Students will be taught theory and algorithms relating to bioimage analysis using Python as a coding language.
+
+### Target Audience:
+Biologists and biophysicists with some experience of microscopy image analysis. In addition this course may be of interest to computer scientists looking to develop their knowledge of Python coding in the context of image analysis. We ask that all attendess complete a basic python coding exercise before attending the course.
+
+### Learning Outcomes: 
+This course will give candidates knowledge of image analysis theory and algorithms. It will consolidate and extend their python coding skills relevant to bioimage analysis. It will give them practise coding algorithms. It will develop their confidence as independent BioImage Analysts, able to understand algorithms and apply them. They will also be able to see applied examples of the analysis from experienced BioImage Analysts in the Research spotlight talks.
 
 ### Content:
-Image Analysis theory. Python and Fiji coding and exercise. 
-Images from different microscopy domains.
-
+Lectures will focus on Image Analysis theory. The bulk of the practical work will focus on Python and how to code algorithms and handle data using Python. Fiji will be used as a tool to facilitate image analysis. Research spotlight talks will demonstrate research of instructors/scientists using taught techniques in the wild.
 
 ### Prequisites
-- Python introductory course.
+- Basic awareness of Fiji/ImageJ
+- Python introductory course. The course will extend basic python skills.
 
 ### Proposed structure:
 
@@ -55,6 +57,5 @@ Images from different microscopy domains.
 - 10:00-10:50: Introduction to Machine Learning for Bioimage analysis.
 - 11:00-11:50: BioImage analysis Applied machine learning. (e.g. https://tinyurl.com/y3kp2yo6)
 - 12:00-13:00: lunch
-- 13:00-13:30: Course closing.
-- 13:30-15:30: Practical (e.g. https://tinyurl.com/y36wn3ug).
+- 13:00-15:30: Practical (e.g. https://tinyurl.com/y36wn3ug).
 - 16:00-17:00: Practical
