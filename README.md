@@ -18,7 +18,11 @@ Lectures will focus on Image Analysis theory. The bulk of the practical work wil
 
 ### Prequisites
 - Basic awareness of Fiji/ImageJ
-- Python introductory course. The course will extend basic python skills.
+- Python introductory course: e.g. https://github.com/ChasNelson1990/python-1day-course
+  - Note that this course will be being updating over the coming months.
+  - The notebooks in the course provide a useful idea of a style that I know works.
+  - But comments for improvement always welcome!
+
 
 ### Proposed structure:
 
