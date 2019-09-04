@@ -4,17 +4,22 @@ Image Analysis Focused Interest Group of the Royal Microscopy Society Bioimage A
 #WORK IN PROGRESS.
 
 ### Aim:
-The aim of this intensive course is to develop motivated students toward becoming independent BioImage Analysts in a facility or research role.
-Students will be taught theory and algorithms relating to bioimage analysis using Python as a coding language.
+The aim of this week-long course is to develop motivated students/staff toward becoming independent BioImage Analysts in a facility or research role. Students will be taught theory and algorithms relating to bioimage analysis using Python as a coding language.
 
 ### Target Audience:
-Biologists and biophysicists with some experience of microscopy image analysis. In addition this course may be of interest to computer scientists looking to develop their knowledge of Python coding in the context of image analysis. We ask that all attendess complete a basic python coding exercise before attending the course.
+Cell Biologists, Biophysicists, BioImage Analysts with some experience of basic microscopy image analysis. In addition, this course may be of interest to physical scientists looking to develop their knowledge of Python coding in the context of image analysis. We ask that all attendees complete a basic python coding course before the course begins. Details of this will be sent to attendees which apply.
+
+
 
 ### Learning Outcomes: 
-This course will give candidates knowledge of image analysis theory and algorithms. It will consolidate and extend their python coding skills relevant to bioimage analysis. It will give them practise coding algorithms. It will develop their confidence as independent BioImage Analysts, able to understand algorithms and apply them. They will also be able to see applied examples of the analysis from experienced BioImage Analysts in the Research spotlight talks.
+This course will give candidates knowledge of image analysis theory and algorithms:
+* It will consolidate and extend their python coding skills to cover topics relevant to bioimage analysis (see content below). 
+* It will give them practise coding algorithms. 
+* It will develop their confidence as independent BioImage Analysts, able to understand new algorithms and implement them.
+* Candidates will experience developing pipelines which start with raw data and result in publication quality figures and will be able to apply this process in the future.
 
 ### Content:
-Lectures will focus on Image Analysis theory. The bulk of the practical work will focus on Python and how to code algorithms and handle data using Python. Fiji will be used as a tool to facilitate image analysis. Research spotlight talks will demonstrate research of instructors/scientists using taught techniques in the wild.
+Lectures will focus on Image Analysis theory and application. Topics to be covered include: Image Analysis and image processing, Python and Jupyter notebooks, Visualisation, Fiji to Python, Segmentation, Omero and Python, Image Registration, Colocalisation, Time-series analysis, Tracking, Machine Learning, Applied Machine Learning. The bulk of the practical work will focus on Python and how to code algorithms and handle data using Python. Fiji will be used as a tool to facilitate image analysis. Omero will be described and used for some interactive coding challenges. Research spotlight talks will demonstrate research of instructors/scientists using taught techniques in the wild.
 
 ### Prequisites
 - Basic awareness of Fiji/ImageJ
