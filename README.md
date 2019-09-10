@@ -61,12 +61,12 @@ SC - Stephen Cross
 - 10:00-10:50: Time-series analysis (e.g. FCS, FRAP) (DW).
 - 11:00-12:30: Practical (time-series analysis exercises)(DW).
 - 12:30-13:30: Lunch
-- 13:30-14:30: Tracking (e.g. cell tracking https://tinyurl.com/yy9rm5f2). (SC)
+- 13:30-14:30: Tracking (e.g. cell tracking). (SC)
 - 15:00-17:00: Practical on tracking (SC)
 ### Friday (machine learning/computer vision):
 - 9:30-10:00: Research spotlight talk. (DW, 25+5 min)
 - 10:00-10:50: Introduction to Machine Learning for Bioimage analysis. (MK)
-- 11:00-12:30: Practical (e.g. https://tinyurl.com/y36wn3ug).(MK)
+- 11:00-12:30: Practical.(MK)
 - 12:30-13:30: Lunch
-- 13:30-14:30: BioImage analysis Applied machine learning. (e.g. https://tinyurl.com/y3kp2yo6) (MK)
+- 13:30-14:30: BioImage analysis Applied machine learning. (MK)
 - 15:00-17:00: Practical (MK)
