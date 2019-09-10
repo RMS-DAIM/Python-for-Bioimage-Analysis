@@ -49,12 +49,12 @@ SC - Stephen Cross
 - 12:30-13:30: Lunch
 - 13:30-14:30: Omero and python interfacing (OT)
 - 15:00-17:00: Practical (OT)
-### Wednesday (image correlation and registration):
+### Wednesday (image correlation and ImageJ interaction):
 - 9:30-10:00: Research spotlight talk. (Virginie Uhlmann)
-- 10:00-10:50: Image Registration (CN)
+- 10:00-10:50: Using ImageJ within Python (CN)
 - 11:00-12:30: Practical (CN)
 - 12:30-13:30:  Lunch
-- 13:30-14:30: Colocalisation (DW)
+- 13:30-14:30: Colocalisation and Registration (DW)
 - 15:00-17:00: Practical (DW)
 ### Thursday (tracking and time-series):
 - 9:30-10:00: Research spotlight talk. (SC, 25+5 min)
