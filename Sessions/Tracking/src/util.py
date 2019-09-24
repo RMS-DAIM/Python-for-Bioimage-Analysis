@@ -5,18 +5,18 @@
 ## Installing dependencies
 # (Is this necessary?)
 
-
 ## Importing dependencies
 import csv
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
 import random
+import sys
 
-from matplotlib.widgets import Slider
+from colorsys import hsv_to_rgb
+from ipywidgets import interact,IntSlider
 from PIL import Image, ImageDraw
 from skimage import io
-
 
 ## Image loading
 def load_images(path):
@@ -75,21 +75,22 @@ def show_overlay(image, tracks):
     image = render_overlay(image,tracks)
     
     # Creating the figure
-    fig, (ax_image, ax_slider) = plt.subplots(2,1, gridspec_kw={'height_ratios':[20,1],'bottom':0.05,'top':0.95})
+    plt.rcParams["figure.figsize"] = (10,6)
+    plt.rcParams["toolbar"] = "None"
+    fig, ax = plt.subplots()
+    plt.tight_layout()
         
     # Method to run each time slider is changed
-    def update_image(val):
-        ax_image.clear()
-        frame = int(round(val))
-        ax_image.imshow(image[frame])
-    
+    def update_image(frame):
+        frame = int(round(frame))
+        ax.clear()
+        ax.imshow(image[frame])
+
     # Creating the slider and running the image update for the first slice
-    slider = Slider(ax_slider,'Slice',0, n_frames-1, valinit=0,valfmt="%0.0f")
-    slider.on_changed(update_image)
-    update_image(0)
+    interact(update_image,frame=IntSlider(min=0, max=n_frames-1,step=1,value=0));
     
     # Displaying the image
-    plt.show()
+    plt.show();
     
 ## Converting the Numpy array to a PIL image and drawing tracks
 def render_overlay(image, tracks):
@@ -97,14 +98,15 @@ def render_overlay(image, tracks):
     tracks = tracks.sort_values(by=['T'])
     
     overlay_image = []
-    for frame in range(0,image.shape[2]-1):
-        print("Rendering frame ",frame)
+    n_frames = image.shape[2]
+    for frame in range(0,n_frames-1):
+        sys.stdout.write("\rRendering frame %d of %d" % ((frame+1),n_frames))
         # Converting to PIL image
         overlay_image.append(Image.fromarray(image[:,:,frame]).convert('RGB'))
         
         # Adding overlay
         draw_tracks(overlay_image[frame],tracks,frame)
-    
+        
     return overlay_image
 
 ## Draw tracks for a single frame
@@ -122,23 +124,17 @@ def draw_tracks(image, tracks,frame):
         draw_track(draw, track)        
 
 def draw_track(draw, track):
+    track_ID = track['TRACK_ID'].iloc[0]
+    
     for row in range(1,track.shape[0]-1):
         x1 = track.X.values[[row-1]]
         x2 = track.X.values[[row]]
         y1 = track.Y.values[[row-1]]
         y2 = track.Y.values[[row]]
 
-        draw.line((x1,y1,x2,y2), fill=(255,0,255), width=5)
-
-        
-## Running these methods to check they work    
-path = "..\\data\\ExampleTimeseries.tif"
-image = load_images(path)
-
-# Loading track coordinates
-path = "..\\data\\TrackedCoordinatesNoHeader.csv"
-coords = load_coordinates(path);
-
-# Adding track renders
-show_overlay(image,coords)
+        # Determining colour based on the track ID
+        random.seed(track_ID)
+        h = random.random()
+        rgb = tuple(round(i*255) for i in hsv_to_rgb(h,1,1))
+        draw.line((x1,y1,x2,y2), fill=rgb, width=5)
     
