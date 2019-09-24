@@ -75,7 +75,7 @@ def show_overlay(image, tracks):
     image = render_overlay(image,tracks)
     
     # Creating the figure
-    plt.rcParams["figure.figsize"] = (10,6)
+    plt.rcParams["figure.figsize"] = (8,6)
     plt.rcParams["toolbar"] = "None"
     fig, ax = plt.subplots()
     plt.tight_layout()
@@ -99,7 +99,7 @@ def render_overlay(image, tracks):
     
     overlay_image = []
     n_frames = image.shape[2]
-    for frame in range(0,n_frames-1):
+    for frame in range(0,n_frames):
         sys.stdout.write("\rRendering frame %d of %d" % ((frame+1),n_frames))
         # Converting to PIL image
         overlay_image.append(Image.fromarray(image[:,:,frame]).convert('RGB'))
@@ -136,5 +136,5 @@ def draw_track(draw, track):
         random.seed(track_ID)
         h = random.random()
         rgb = tuple(round(i*255) for i in hsv_to_rgb(h,1,1))
-        draw.line((x1,y1,x2,y2), fill=rgb, width=5)
+        draw.line((x1,y1,x2,y2), fill=rgb, width=3)
     
