@@ -28,6 +28,7 @@ def load_images(path):
     img = np.transpose(img,(1,2,0))
     print("Reordered image shape: ",img.shape)
     
+    # Adding a blank space to make the output easier to read
     print(" ")
     
     # Return the loaded array
@@ -56,14 +57,19 @@ def load_coordinates(path):
     # Adding data to Pandas DataFrame, so we can have headers
     # Add a final column for Track ID present
     if raw.shape[1] == 5:
-        names = ["ID","X","Y","T","TRACK_ID"]
+        names = ["ID","X","Y","FRAME","TRACK_ID"]
     elif raw.shape[1] == 6:
-        names = ["ID","X","Y","T","AREA","INTENSITY"]
-    data = pd.DataFrame(raw,columns=names)
+        names = ["ID","X","Y","FRAME","AREA","INTENSITY"]
+    coords = pd.DataFrame(raw,columns=names)
     
+    # We will need a blank column for TRACK_ID, so add it if necessary
+    if coords.shape[1] == 6:
+        coords['TRACK_ID'] = 0
+    
+    # Adding a blank space to make the output easier to read
     print(" ")
        
-    return data
+    return coords
     
 
 ## Create overlay
@@ -95,7 +101,7 @@ def show_overlay(image, tracks):
 ## Converting the Numpy array to a PIL image and drawing tracks
 def render_overlay(image, tracks):
     # Ensuring the tracks are sorted by frame
-    tracks = tracks.sort_values(by=['T'])
+    tracks = tracks.sort_values(by=['FRAME'])
     
     overlay_image = []
     n_frames = image.shape[2]
@@ -112,19 +118,19 @@ def render_overlay(image, tracks):
 ## Draw tracks for a single frame
 def draw_tracks(image, tracks,frame):
     # Getting tracks to display (only show last 20 frames)
-    tracks_to_show = tracks[:][(tracks['T'] > (frame-20)) & (tracks['T'] <=frame)]
+    tracks_to_show = tracks[:][(tracks.FRAME > (frame-20)) & (tracks.FRAME <=frame)]
 
     # Getting the unique tracks  
     track_IDs = tracks_to_show.TRACK_ID.unique()
     
     # Iterate over each track, drawing the path
     for track_ID in track_IDs:
-        track = tracks_to_show[:][tracks_to_show['TRACK_ID'] == track_ID]
+        track = tracks_to_show[:][tracks_to_show.TRACK_ID == track_ID]
         draw = ImageDraw.Draw(image) 
         draw_track(draw, track)        
 
 def draw_track(draw, track):
-    track_ID = track['TRACK_ID'].iloc[0]
+    track_ID = track.TRACK_ID.iloc[0]
     
     for row in range(1,track.shape[0]-1):
         x1 = track.X.values[[row-1]]
