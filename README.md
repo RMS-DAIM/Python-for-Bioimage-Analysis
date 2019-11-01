@@ -1,7 +1,7 @@
 # IAFIG-RMS-bioimage-training
 Image Analysis Focused Interest Group of the Royal Microscopy Society Bioimage Analysis Course.
 
-#WORK IN PROGRESS.
+
 
 ### Aim:
 The aim of this week-long course is to develop motivated students/staff toward becoming independent BioImage Analysts in a facility or research role. Students will be taught theory and algorithms relating to bioimage analysis using Python as a coding language.
@@ -23,19 +23,24 @@ Lectures will focus on Image Analysis theory and application. Topics to be cover
 
 ### Prequisites
 - Basic awareness of Fiji/ImageJ
-- Python introductory course: e.g. https://github.com/ChasNelson1990/python-1day-course
+- Python introductory course: https://github.com/ChasNelson1990/python-zero-to-hero-beginners-course
   - Note that this course will be being updated over the coming months. Participants will be emailed with the course once complete.
 
 
-### Proposed structure:
+### Contributers
 
 DW - Dominic Waithe
-CN - Chas Nelson
-TF  - Todd Fallesen
-OT - Ola (Alexandra) Tarkowska
-MK - Mikolaj Kundegorski
-SC - Stephen Cross
 
+CN - Chas Nelson
+
+TF  - Todd Fallesen
+
+OT - Ola (Alexandra) Tarkowska
+
+MK - Mikolaj Kundegorski
+
+SC - Stephen Cross
+#WORK IN PROGRESS.
 #### Monday (image processing and general analysis):
 - 9:30-10:00: Introduction to course and structure. (DW)
 - 10:00-11:50: Images in Python (CN)
