@@ -27,19 +27,20 @@ Lectures will focus on Image Analysis theory and application. Topics to be cover
   - Note that this course will be being updated over the coming months. Participants will be emailed with the course once complete.
 
 
-### Contributers
+### Lecturers
 
-DW - Dominic Waithe
+Dominic Waithe (DW)
 
-CN - Chas Nelson
+Chas Nelson (CN)
 
-TF  - Todd Fallesen
+Todd Fallesen (TD)
 
-OT - Ola (Alexandra) Tarkowska
+Ola (Alexandra) Tarkowska (OT)
 
-MK - Mikolaj Kundegorski
+Mikolaj Kundegorski (MK)
 
-SC - Stephen Cross
+Stephen Cross (SC)
+
 #WORK IN PROGRESS.
 #### Monday (image processing and general analysis):
 - 9:30-10:00: Introduction to course and structure. (DW)
