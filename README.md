@@ -1,8 +1,6 @@
 # IAFIG-RMS-bioimage-training
 Image Analysis Focused Interest Group of the Royal Microscopy Society Bioimage Analysis Course.
 
-
-
 ### Aim:
 The aim of this week-long course is to develop motivated students/staff toward becoming independent BioImage Analysts in a facility or research role. Students will be taught theory and algorithms relating to bioimage analysis using Python as a coding language.
 
@@ -22,24 +20,22 @@ This course will give candidates knowledge of image analysis theory and algorith
 Lectures will focus on Image Analysis theory and application. Topics to be covered include: Image Analysis and image processing, Python and Jupyter notebooks, Visualisation, Fiji to Python, Segmentation, Omero and Python, Image Registration, Colocalisation, Time-series analysis, Tracking, Machine Learning, Applied Machine Learning. The bulk of the practical work will focus on Python and how to code algorithms and handle data using Python. Fiji will be used as a tool to facilitate image analysis. Omero will be described and used for some interactive coding challenges. Research spotlight talks will demonstrate research of instructors/scientists using taught techniques in the wild.
 
 ### Prequisites
-- Basic awareness of Fiji/ImageJ
+- Basic awareness of Fiji/ImageJ. You should be able to open images and do basic analysis, basic macro writing is advantageous.
 - Python introductory course: https://github.com/ChasNelson1990/python-zero-to-hero-beginners-course
-  - Note that this course will be being updated over the coming months. Participants will be emailed with the course once complete.
+  - If you've not done much Python in the past, you should work your way through the pre-requisite course (approx. 12-15 hr); however, those comfortable in Python may choose to skips components they are confident about.
 
+### Main Organisers
+Dominic Waithe and Gabriella Rustici.
+### Co-organisers
+Chas Nelson and Stephen Cross.
 
 ### Lecturers
-
-Dominic Waithe (DW)
-
-Chas Nelson (CN)
-
-Todd Fallesen (TD)
-
-Ola (Alexandra) Tarkowska (OT)
-
-Mikolaj Kundegorski (MK)
-
-Stephen Cross (SC)
+Chas Nelson (CN)  
+Dominic Waithe (DW)  
+Ola (Alexandra) Tarkowska (OT)  
+Mikolaj Kundegorski (MK)  
+Stephen Cross (SC)  
+Todd Fallesen (TD)  
 
 #WORK IN PROGRESS.
 #### Monday (image processing and general analysis):
@@ -76,3 +72,5 @@ Stephen Cross (SC)
 - 12:30-13:30: Lunch
 - 13:30-14:30: BioImage analysis Applied machine learning. (MK)
 - 15:00-17:00: Practical (MK)
+
+
