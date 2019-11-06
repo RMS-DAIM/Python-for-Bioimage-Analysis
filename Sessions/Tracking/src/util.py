@@ -73,12 +73,12 @@ def load_coordinates(path):
     
 
 ## Create overlay
-def show_overlay(image, tracks):
+def show_overlay(image, coords, show_tracks):
     # Getting the number of frames
     n_frames = image.shape[2]
 
     # Converting the image Numpy array to PIL image and adding overlay elements
-    image = render_overlay(image,tracks)
+    image = render_overlay(image,coords,show_tracks)
     
     # Creating the figure
     plt.rcParams["figure.figsize"] = (8,6)
@@ -99,9 +99,9 @@ def show_overlay(image, tracks):
     plt.show();
     
 ## Converting the Numpy array to a PIL image and drawing tracks
-def render_overlay(image, tracks):
+def render_overlay(image, coords, show_tracks):
     # Ensuring the tracks are sorted by frame
-    tracks = tracks.sort_values(by=['FRAME'])
+    coords = coords.sort_values(by=['FRAME'])
     
     overlay_image = []
     n_frames = image.shape[2]
@@ -110,15 +110,38 @@ def render_overlay(image, tracks):
         # Converting to PIL image
         overlay_image.append(Image.fromarray(image[:,:,frame]).convert('RGB'))
         
-        # Adding overlay
-        draw_tracks(overlay_image[frame],tracks,frame)
+        # Adding points overlay
+        draw_points(overlay_image[frame],coords,frame)
+        
+        # Adding tracks overlay
+        if show_tracks:
+            draw_tracks(overlay_image[frame],coords,frame)
         
     return overlay_image
 
-## Draw tracks for a single frame
-def draw_tracks(image, tracks,frame):
+## Draw points for a single frame
+def draw_points(image,coords,frame):
     # Getting tracks to display (only show last 20 frames)
-    tracks_to_show = tracks[:][(tracks.FRAME > (frame-20)) & (tracks.FRAME <=frame)]
+    rows = coords.index[coords.FRAME == frame]
+                        
+    # Iterate over each point, drawing it on the image
+    for row in rows:
+        draw = ImageDraw.Draw(image) 
+        draw_point(draw, coords.loc[row])
+                    
+def draw_point(draw,point):
+    # Setting the radius of the points
+    r = 2
+    
+    x = point.X
+    y = point.Y
+    
+    draw.ellipse(((x-r,y-r),(x+r,y+r)),fill=(255,0,0))
+                    
+## Draw tracks for a single frame
+def draw_tracks(image,coords,frame):
+    # Getting tracks to display (only show last 20 frames)
+    tracks_to_show = coords[:][(coords.FRAME > (frame-20)) & (coords.FRAME <=frame)]
 
     # Getting the unique tracks  
     track_IDs = tracks_to_show.TRACK_ID.unique()
@@ -142,5 +165,5 @@ def draw_track(draw, track):
         random.seed(track_ID)
         h = random.random()
         rgb = tuple(round(i*255) for i in hsv_to_rgb(h,1,1))
-        draw.line((x1,y1,x2,y2), fill=rgb, width=3)
+        draw.line((x1,y1,x2,y2), fill=rgb, size=3)
         
