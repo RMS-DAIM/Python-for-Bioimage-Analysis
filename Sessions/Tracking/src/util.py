@@ -1,10 +1,6 @@
 ## UTILITIES FOR TRACKING COURSE
 # (Add information here)
 
-
-## Installing dependencies
-# (Is this necessary?)
-
 ## Importing dependencies
 import csv
 import matplotlib.pyplot as plt
@@ -15,25 +11,34 @@ import sys
 
 from colorsys import hsv_to_rgb
 from ipywidgets import interact,IntSlider
+from os import listdir
 from PIL import Image, ImageDraw
 from skimage import io
 
-## Image loading
+downsample = 4
+
 def load_images(path):
     print("Loading images from \"",path,"\"")
     
-    img = io.imread(path,plugin="pil")
-    print("Loaded image shape: ",img.shape)
+    file_list = listdir(path)
     
-    img = np.transpose(img,(1,2,0))
-    print("Reordered image shape: ",img.shape)
+    # Getting first image as an example
+    temp_im = io.imread(path+file_list[0],plugin="pil")
+    temp_im = temp_im[0:temp_im.shape[0]:downsample,0:temp_im.shape[1]:downsample]
+    im = np.zeros((temp_im.shape[0],temp_im.shape[1],len(file_list)))
     
-    # Adding a blank space to make the output easier to read
-    print(" ")
-    
-    # Return the loaded array
-    return img
-
+    print("")
+    for i,file in enumerate(listdir(path)):       
+        sys.stdout.write("\rReading image %i of %i" % ((i+1),len(file_list)))
+        temp_im = io.imread(path+file,plugin="pil")
+        temp_im = temp_im[0:temp_im.shape[0]:downsample,0:temp_im.shape[1]:downsample]
+        im[:,:,i] = temp_im
+        
+    print("")
+    print("Loaded image shape: ",im.shape)
+        
+    return im
+   
 
 ## Coordinate loading
 # Loading coordinates from a CSV file. Each row of the output corresponds to a single timepoint 
@@ -51,21 +56,18 @@ def load_coordinates(path):
     print("Loading coordinates from \"",path,"\"")
     
     # Loading raw data into Numpy array
-    raw = np.genfromtxt(path,delimiter=",")
+    raw = np.genfromtxt(path,delimiter=",",skip_header=1)
     print("Loaded data shape: ",raw.shape)
 
     # Adding data to Pandas DataFrame, so we can have headers
     # Add a final column for Track ID present
-    if raw.shape[1] == 5:
-        names = ["ID","X","Y","FRAME","TRACK_ID"]
-    elif raw.shape[1] == 6:
-        names = ["ID","X","Y","FRAME","AREA","INTENSITY"]
+    names = ["ID","X","Y","FRAME","AREA","TRACK_ID"]
     coords = pd.DataFrame(raw,columns=names)
     
-    # We will need a blank column for TRACK_ID, so add it if necessary
-    if coords.shape[1] == 6:
-        coords['TRACK_ID'] = 0
-    
+    # We're using downsampled data for speed of processing.  Applying this to X and Y.
+    coords.X = coords.X/downsample
+    coords.Y = coords.Y/downsample
+        
     # Adding a blank space to make the output easier to read
     print(" ")
        
@@ -141,7 +143,8 @@ def draw_point(draw,point):
 ## Draw tracks for a single frame
 def draw_tracks(image,coords,frame):
     # Getting tracks to display (only show last 20 frames)
-    tracks_to_show = coords[:][(coords.FRAME > (frame-20)) & (coords.FRAME <=frame)]
+#     tracks_to_show = coords[:][(coords.FRAME > (frame-20)) & (coords.FRAME <=frame)]
+    tracks_to_show = coords[:][(coords.FRAME <=frame)]
 
     # Getting the unique tracks  
     track_IDs = tracks_to_show.TRACK_ID.unique()
@@ -165,5 +168,5 @@ def draw_track(draw, track):
         random.seed(track_ID)
         h = random.random()
         rgb = tuple(round(i*255) for i in hsv_to_rgb(h,1,1))
-        draw.line((x1,y1,x2,y2), fill=rgb, size=3)
+        draw.line((x1,y1,x2,y2), fill=rgb)
         
