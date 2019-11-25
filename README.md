@@ -51,21 +51,21 @@ Todd Fallesen (TD)
 - 12:30-13:30: Lunch
 - 13:30-14:30: Omero and python interfacing (OT)
 - 15:00-17:00: Practical (OT)
-### Wednesday (ImageJ Interaction and Colocalization):
+#### Wednesday (ImageJ Interaction and Colocalization):
 - 9:30-10:00: Research spotlight talk. (Virginie Uhlmann)
 - 10:00-10:50: Using ImageJ within Python (CN)
 - 11:00-12:30: Practical (CN)
 - 12:30-13:30:  Lunch
 - 13:30-14:30: Colocalisation and Registration (DW)
 - 15:00-17:00: Practical (DW)
-### Thursday (Tracking and Time Series):
+#### Thursday (Tracking and Time Series):
 - 9:30-10:00: Research spotlight talk. (SC, 25+5 min)
 - 10:00-10:50: Time-series analysis (e.g. FCS, FRAP) (DW).
 - 11:00-12:30: Practical (time-series analysis exercises)(DW).
 - 12:30-13:30: Lunch
 - 13:30-14:30: Tracking (e.g. cell tracking). (SC)
 - 15:00-17:00: Practical on tracking (SC)
-### Friday (Machine Learning for Bioimage Analysis):
+#### Friday (Machine Learning for Bioimage Analysis):
 - 9:30-10:00: Research spotlight talk. (DW, 25+5 min)
 - 10:00-10:50: Introduction to Machine Learning for Bioimage analysis. (MK)
 - 11:00-12:30: Practical.(MK)
