@@ -30,6 +30,7 @@ Dominic Waithe and Gabriella Rustici.
 Chas Nelson and Stephen Cross.
 
 ### Lecturers
+Aurelien Barbotin (AB)
 Chas Nelson (CN)  
 Dominic Waithe (DW)  
 Ola (Alexandra) Tarkowska (OT)  
@@ -37,7 +38,7 @@ Mikolaj Kundegorski (MK)
 Stephen Cross (SC)  
 Todd Fallesen (TD)  
 
-#WORK IN PROGRESS.
+
 #### Monday (Image Processing and General Analysis):
 - 9:30-10:00: Introduction to course and structure. (DW)
 - 10:00-11:50: Images in Python (CN)
@@ -45,28 +46,28 @@ Todd Fallesen (TD)
 - 13:00-14:30: Interactive demonstration: image processing in Python. (CN)
 - 15:00-17:00: Interactive demonstration: Fiji to Python. Visualisation (TF). 
 #### Tuesday (Segmentation and OMERO Interaction):
-- 9:30-10:00: Research spotlight talk. (TBA)
-- 10:00-10:50: Segmentation lecture (DW)
+- 9:30-10:00: Research spotlight talk. (SC, 25+5 min, )
+- 10:00-10:50: Segmentation (DW)
 - 11:00-12:30: Practical (DW)
 - 12:30-13:30: Lunch
 - 13:30-14:30: Omero and python interfacing (OT)
 - 15:00-17:00: Practical (OT)
 #### Wednesday (ImageJ Interaction and Colocalization):
-- 9:30-10:00: Research spotlight talk. (Virginie Uhlmann)
+- 9:30-10:00: Research spotlight talk. (Virginie Uhlmann, 25+5 min, )
 - 10:00-10:50: Using ImageJ within Python (CN)
 - 11:00-12:30: Practical (CN)
 - 12:30-13:30:  Lunch
 - 13:30-14:30: Colocalisation and Registration (DW)
 - 15:00-17:00: Practical (DW)
 #### Thursday (Tracking and Time Series):
-- 9:30-10:00: Research spotlight talk. (SC, 25+5 min)
+- 9:30-10:00: Research spotlight talk (AB, 25+5 min, ). 
 - 10:00-10:50: Data Fitting and Time Series Analysis (DW).
 - 11:00-12:30: Practical (time-series analysis exercises)(DW).
 - 12:30-13:30: Lunch
 - 13:30-14:30: Tracking (e.g. cell tracking). (SC)
 - 15:00-17:00: Practical on tracking (SC)
 #### Friday (Machine Learning for Bioimage Analysis):
-- 9:30-10:00: Research spotlight talk. (DW, 25+5 min)
+- 9:30-10:00: Research spotlight talk. (DW, 25+5 min, )
 - 10:00-10:50: Introduction to Machine Learning for Bioimage analysis. (MK)
 - 11:00-12:30: Practical.(MK)
 - 12:30-13:30: Lunch
