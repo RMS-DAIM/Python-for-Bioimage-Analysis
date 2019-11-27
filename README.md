@@ -7,8 +7,6 @@ The aim of this week-long course is to develop motivated students/staff toward b
 ### Target Audience:
 Cell Biologists, Biophysicists, BioImage Analysts with some experience of basic microscopy image analysis. In addition, this course may be of interest to physical scientists looking to develop their knowledge of Python coding in the context of image analysis. This course is appropriate for researchers who are relatively proficient with computers but maybe not had the time or resources available to become programmers. Some prior experience of scripting or modifying scripts would be useful. We ask that all attendees complete a basic python coding course before the course begins. Details of this will be sent to attendees which apply.
 
-
-
 ### Learning Outcomes: 
 This course will give candidates knowledge of image analysis theory and algorithms:
 * It will consolidate and extend their python coding skills to cover topics relevant to bioimage analysis (see content below). 
@@ -30,7 +28,7 @@ Dominic Waithe and Gabriella Rustici.
 Chas Nelson and Stephen Cross.
 
 ### Lecturers
-Aurelien Barbotin (AB)
+Aurelien Barbotin (AB)  
 Chas Nelson (CN)  
 Dominic Waithe (DW)  
 Ola (Alexandra) Tarkowska (OT)  
