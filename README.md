@@ -5,11 +5,11 @@ Image Analysis Focused Interest Group of the Royal Microscopy Society Bioimage A
 The aim of this week-long course is to develop motivated students/staff toward becoming independent BioImage Analysts in a facility or research role. Students will be taught theory and algorithms relating to bioimage analysis using Python as a coding language.
 
 ### Target Audience:
-Cell Biologists, Biophysicists, BioImage Analysts with some experience of basic microscopy image analysis. In addition, this course may be of interest to physical scientists looking to develop their knowledge of Python coding in the context of image analysis. This course is appropriate for researchers who are relatively proficient with computers but maybe not had the time or resources available to become programmers. Some prior experience of scripting or modifying scripts would be useful. We ask that all attendees complete a basic python coding course before the course begins. Details of this will be sent to attendees which apply.
+Cell Biologists, Biophysicists, BioImage Analysts with some experience of basic microscopy image analysis. In addition, this course may be of interest to physical scientists looking to develop their knowledge of Python coding in the context of image analysis. This course is appropriate for researchers who are relatively proficient with computers but maybe not had the time or resources available to become programmers. Some prior experience of scripting or modifying scripts would be useful. We ask that all attendees complete a basic Python coding course before the course begins. Details of this will be sent to attendees which apply.
 
 ### Learning Outcomes: 
 This course will give candidates knowledge of image analysis theory and algorithms:
-* It will consolidate and extend their python coding skills to cover topics relevant to bioimage analysis (see content below). 
+* It will consolidate and extend their Python coding skills to cover topics relevant to bioimage analysis (see content below). 
 * It will give them practise coding algorithms. 
 * It will develop their confidence as independent BioImage Analysts, able to understand new algorithms and implement them.
 * Candidates will experience developing pipelines which start with raw data and result in publication quality figures and will be able to apply this process in the future.
@@ -55,7 +55,7 @@ Todd Fallesen (TD)
 - 10:00-10:50: Using ImageJ within Python (CN)
 - 11:00-12:30: Practical (CN)
 - 12:30-13:30: Lunch
-- 13:30-15:00: Omero and python interfacing (DW)
+- 13:30-15:00: OMERO and Python interfacing (DW)
 - 15:00-17:00: Free time
 #### Thursday (Tracking and Time Series):
 - 9:30-10:00: Research spotlight talk (AB, 25+5 min, ). 
