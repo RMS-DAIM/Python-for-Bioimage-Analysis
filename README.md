@@ -43,20 +43,20 @@ Todd Fallesen (TD)
 - 12:00-13:00: Lunch
 - 13:00-14:30: Interactive demonstration: image processing in Python. (CN)
 - 15:00-17:00: Interactive demonstration: Fiji to Python. Visualisation (TF). 
-#### Tuesday (Segmentation and OMERO Interaction):
+#### Tuesday (Segmentation and colocalization):
 - 9:30-10:00: Research spotlight talk. (SC, 25+5 min, )
 - 10:00-10:50: Segmentation (DW)
 - 11:00-12:30: Practical (DW)
 - 12:30-13:30: Lunch
-- 13:30-14:30: Omero and python interfacing (OT)
-- 15:00-17:00: Practical (OT)
-#### Wednesday (ImageJ Interaction and Colocalization):
+- 13:30-14:30: Colocalisation and Registration (DW)
+- 15:00-17:00: Practical (DW)
+#### Wednesday (ImageJ Interaction and OMERO interaction):
 - 9:30-10:00: Research spotlight talk. (Virginie Uhlmann, 25+5 min, )
 - 10:00-10:50: Using ImageJ within Python (CN)
 - 11:00-12:30: Practical (CN)
-- 12:30-13:30:  Lunch
-- 13:30-14:30: Colocalisation and Registration (DW)
-- 15:00-17:00: Practical (DW)
+- 12:30-13:30: Lunch
+- 13:30-15:00: Omero and python interfacing (DW)
+- 15:00-17:00: Free time
 #### Thursday (Tracking and Time Series):
 - 9:30-10:00: Research spotlight talk (AB, 25+5 min, ). 
 - 10:00-10:50: Data Fitting and Time Series Analysis (DW).
