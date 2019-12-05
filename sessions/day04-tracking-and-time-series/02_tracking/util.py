@@ -1,5 +1,4 @@
 ## UTILITIES FOR TRACKING COURSE
-# (Add information here)
 
 ## Importing dependencies
 import csv
@@ -32,7 +31,7 @@ def load_images(path):
         sys.stdout.write("\rReading image %i of %i" % ((i+1),len(file_list)))
         temp_im = io.imread(path+file,plugin="pil")
         temp_im = temp_im[0:temp_im.shape[0]:downsample,0:temp_im.shape[1]:downsample]
-        im[:,:,i] = temp_im
+        im[:,:,i] = temp_im*4
         
     print("")
     print("Loaded image shape: ",im.shape)
