@@ -20,6 +20,7 @@ def load_images(path):
     print("Loading images from \"",path,"\"")
     
     file_list = listdir(path)
+    file_list = sorted(file_list)
     
     # Getting first image as an example
     temp_im = io.imread(path+file_list[0],plugin="pil")
