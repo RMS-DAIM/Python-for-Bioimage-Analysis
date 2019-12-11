@@ -28,7 +28,7 @@ def load_images(path):
     im = np.zeros((temp_im.shape[0],temp_im.shape[1],len(file_list)))
     
     print("")
-    for i,file in enumerate(listdir(path)):       
+    for i,file in enumerate(file_list):       
         sys.stdout.write("\rReading image %i of %i" % ((i+1),len(file_list)))
         temp_im = io.imread(path+file,plugin="pil")
         temp_im = temp_im[0:temp_im.shape[0]:downsample,0:temp_im.shape[1]:downsample]
