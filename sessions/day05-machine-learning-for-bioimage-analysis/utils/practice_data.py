@@ -8,7 +8,6 @@ import cv2 as cv
 import glob # interacting with filesystem
 import skimage.io #reading png files
 from skimage.transform import resize
-import matplotlib.pyplot as plt
 
 
 # Hypothesis is a combination of variables X
@@ -82,7 +81,7 @@ def showBlobs(blobdf):
         axes[plot_idx].get_yaxis().set_visible(False)
         axes[plot_idx].get_xaxis().set_visible(False)
         plot_idx = plot_idx + 1
-    fig.tight_layout()
+#     fig.tight_layout()
     plt.show()
 
 
