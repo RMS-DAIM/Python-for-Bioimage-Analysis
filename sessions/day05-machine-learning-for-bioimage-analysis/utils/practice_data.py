@@ -78,7 +78,7 @@ def showBlobs(blobdf):
         if (plot_idx==4 * (howmany//4)):
             break
         axes[plot_idx].imshow(row['raw_data'])
-        axes[plot_idx].set_title(row['class'])
+        axes[plot_idx].set_title('Known Class: {0}'.format(row['class']))
         axes[plot_idx].get_yaxis().set_visible(False)
         axes[plot_idx].get_xaxis().set_visible(False)
         plot_idx = plot_idx + 1
