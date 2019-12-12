@@ -25,10 +25,10 @@ IJ.run(imp, "8-bit", "");
 IJ.run(imp, "Make Binary", "");
 IJ.run(imp, "Watershed", "");
 IJ.run("Set Measurements...", "area min redirect=None decimal=3"); #set measurements
-IJ.run(imp2, "Analyze Particles...", "display");
+IJ.run(imp, "Analyze Particles...", "display");
 IJ.run(imp, "Close All", "");
-#save the results table as a CSV
 
-#save_string = directory + 'Results_practical.csv' #generate a string to save file to image directory
-#IJ.saveAs("Results", save_string);
+#save the results table as a CSV
+save_string = directory + 'Results_practical.csv' #generate a string to save file to image directory
+IJ.saveAs("Results", save_string);
 
