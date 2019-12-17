@@ -11,4 +11,4 @@ Sessions:
 4. Supervised Learning
 5. Deep Learning
 
-Prepared and presented by [Mikolaj (Miks) Kundegorski](mixmixmix.github.io) with help from [Chas Nelson](chasnelson.co.uk) for Python For Bioimage Analysis Course in Cambridge, December 2019. 
+Prepared and presented by [Mikolaj (Miks) Kundegorski](htts://mixmixmix.github.io) with help from [Chas Nelson](https://chasnelson.co.uk) for Python For Bioimage Analysis Course in Cambridge, December 2019. 
