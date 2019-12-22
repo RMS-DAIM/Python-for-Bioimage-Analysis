@@ -1,0 +1,19 @@
+name: bioimage
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.6
+  - openjdk=8
+  - ipykernel
+  - ipympl
+  - seaborn
+  - scikit-learn
+  - conda-forge::opencv=4.1.2
+  - conda-forge::keras=2.3.1
+  - conda-forge::lmfit=0.9.14
+  - conda-forge::pyimagej=0.5.0
+  - pip
+  - pip:
+    - psf==2019.4.22
+    - scikit-image==0.16.1
