@@ -38,38 +38,41 @@ Todd Fallesen (TD)
 ## Timetable
 #### Monday (Image Processing and General Analysis):
 - 9:30-10:00: Introduction to course and structure. (DW)
-- 10:00-11:50: Images in Python (CN)
+- 10:00-11:50: Images in Python (CN) ([practical notebook](https://github.com/IAFIG-RMS/Python-for-Bioimage-Analysis/blob/master/sessions/day01-image-processing-and-general-analysis/01_images-in-python/images-in-python.ipynb))
 - 12:00-13:00: Lunch
-- 13:00-14:30: Interactive demonstration: image processing in Python. (CN)
-- 15:00-17:00: Interactive demonstration: Fiji to Python. Visualisation (TF). 
+- 13:00-14:30: Interactive demonstration: image processing in Python. (CN) ([practical notebook](https://github.com/IAFIG-RMS/Python-for-Bioimage-Analysis/blob/master/sessions/day01-image-processing-and-general-analysis/02_processing-in-python/processing-in-python.ipynb))
+- 15:00-17:00: Interactive demonstration: Fiji to Python. Visualisation (TF). ([overview](https://github.com/IAFIG-RMS/Python-for-Bioimage-Analysis/tree/master/sessions/day01-image-processing-and-general-analysis/03_fiji-to-python))
 #### Tuesday (Segmentation and colocalization):
 - 9:30-10:00: Research spotlight talk. (SC, 25+5 min, “Just keep swimming: Characterising motion of zebrafish")
-- 10:00-10:50: Segmentation (DW)
-- 11:00-12:30: Practical (DW)
+- 10:00-10:50: Segmentation (DW) ([pdf](https://github.com/IAFIG-RMS/Python-for-Bioimage-Analysis/blob/master/sessions/day02-segmentation-and-colocalization/01_segmentation/2019_IAFIG_Segmentation.pdf)) ([video lecture](https://youtu.be/cmOnOvbUUIk
+  ))
+- 11:00-12:30: Practical (DW) ([practical notebook](https://github.com/IAFIG-RMS/Python-for-Bioimage-Analysis/blob/master/sessions/day02-segmentation-and-colocalization/01_segmentation/Segmentation%20practical.ipynb))
 - 12:30-13:30: Lunch
-- 13:30-14:30: Colocalisation and Registration (DW)
-- 15:00-17:00: Practical (DW)
+- 13:30-14:30: Colocalisation and Registration (DW) ([pdf](https://github.com/IAFIG-RMS/Python-for-Bioimage-Analysis/blob/master/sessions/day02-segmentation-and-colocalization/02_colocalization/2019_IAFIG_colocalization_registration.pdf)) ([video lecture](https://youtu.be/cOrCz4qc8DI))
+- 15:00-17:00: Practical (DW) ([practical notebook](https://github.com/IAFIG-RMS/Python-for-Bioimage-Analysis/blob/master/sessions/day02-segmentation-and-colocalization/02_colocalization/2019_IAFIG_colocalization_practical.ipynb))
 #### Wednesday (ImageJ Interaction and OMERO interaction):
 - 9:30-10:00: Research spotlight talk. (Virginie Uhlmann, 25+5 min, “Quantifying morphology from bioimages with parametric model")
 - 10:00-10:50: Using ImageJ within Python (CN)
 - 11:00-12:30: Practical (CN)
 - 12:30-13:30: Lunch
-- 13:30-15:00: OMERO and Python interfacing (DW)
+- 13:30-15:00: OMERO and Python interfacing (DW) ([pdf](https://github.com/IAFIG-RMS/Python-for-Bioimage-Analysis/blob/master/sessions/day03-imagej-interaction-and-OMERO-interaction/03_OMERO-interaction/2019_OMERO-interaction.pdf)) ([practical notebook](https://github.com/IAFIG-RMS/Python-for-Bioimage-Analysis/blob/master/sessions/day03-imagej-interaction-and-OMERO-interaction/03_OMERO-interaction/omero-python3.ipynb))
 - 15:00-17:00: Free time
 #### Thursday (Tracking and Time Series):
-- 9:30-10:00: Research spotlight talk (AB, 25+5 min, “Python in applied research"). 
-- 10:00-10:50: Data Fitting and Time Series Analysis (DW).
-- 11:00-12:30: Practical (time-series analysis exercises)(DW).
+- 9:30-10:00: Research spotlight talk (AB, 25+5 min, “Python in applied research")
+- 10:00-10:50: Data Fitting and Time Series Analysis (DW) ([pdf](https://github.com/IAFIG-RMS/Python-for-Bioimage-Analysis/blob/master/sessions/day04-tracking-and-time-series/01_data-fitting-and-time-series-analysis/2019_IAFIG_Data%20Fitting%20and%20Time%20Series%20Analysis.pdf)) ([video lecture](https://youtu.be/zvGDlSyTWMQ))
+- 11:00-12:30: Practical (DW) ([practical notebook](https://github.com/IAFIG-RMS/Python-for-Bioimage-Analysis/blob/master/sessions/day04-tracking-and-time-series/01_data-fitting-and-time-series-analysis/2019_IAFIG_DataFittingAndTimeSeriesAnalysis.ipynb))
 - 12:30-13:30: Lunch
-- 13:30-14:30: Tracking (e.g. cell tracking). (SC)
-- 15:00-17:00: Practical on tracking (SC)
+- 13:30-14:30: Tracking (e.g. cell tracking). (SC) ([pptx](https://github.com/IAFIG-RMS/Python-for-Bioimage-Analysis/blob/master/sessions/day04-tracking-and-time-series/02_tracking/Object%20tracking%20in%20Python.pptx))
+- 15:00-17:00: Practical on tracking (SC) ([practical notebook](https://github.com/IAFIG-RMS/Python-for-Bioimage-Analysis/blob/master/sessions/day04-tracking-and-time-series/02_tracking/Tracking_worksheet_STUDENT_VERSION.ipynb))
 #### Friday (Machine Learning for Bioimage Analysis):
-- 9:30-10:00: Research spotlight talk. (DW, 25+5 min, “Automating microscopy acquisition with deep learning”)
-- 10:00-10:50: Introduction to Machine Learning for Bioimage analysis. (MK)
-- 11:00-12:30: Practical.(MK)
+- 9:30-10:00: Research spotlight talk. (DW, 25+5 min, “Automating microscopy acquisition with deep learning”) ([pdf](https://github.com/IAFIG-RMS/Python-for-Bioimage-Analysis/blob/master/sessions/day05-machine-learning-for-bioimage-analysis/2019-DEC-Object%20detection%20networks%20for%20localization%20and%20classification%20of%20cells%20in%20fluorescence%20microscopy%20acquisition%20and%20analysis.%20copy.pdf)) ([video lecture](https://youtu.be/w0ERCrKx4gk))
+- 10:00-10:50: Machine Learning for Bioimage analysis. Introduction (MK) ([pdf](https://github.com/IAFIG-RMS/Python-for-Bioimage-Analysis/blob/master/sessions/day05-machine-learning-for-bioimage-analysis/session00_intro.pdf)) ([overview](https://github.com/IAFIG-RMS/Python-for-Bioimage-Analysis/tree/master/sessions/day05-machine-learning-for-bioimage-analysis))
+- 11:00-12:00: Machine Learning for Bioimage analysis. Basic Predictive Models (MK) ([pdf](https://github.com/IAFIG-RMS/Python-for-Bioimage-Analysis/blob/master/sessions/day05-machine-learning-for-bioimage-analysis/session01_basic.pdf))
+- 12:00-12:30: Machine Learning for Bioimage analysis. Image Features (MK) ([pdf](https://github.com/IAFIG-RMS/Python-for-Bioimage-Analysis/blob/master/sessions/day05-machine-learning-for-bioimage-analysis/session02_features.pdf))
 - 12:30-13:30: Lunch
-- 13:30-14:30: BioImage analysis Applied machine learning. (MK)
-- 15:00-17:00: Practical (MK)
+- 13:30-14:30: Machine Learning for Bioimage analysis. Unsupervised Learning (MK) ([pdf](https://github.com/IAFIG-RMS/Python-for-Bioimage-Analysis/blob/master/sessions/day05-machine-learning-for-bioimage-analysis/session03_unsupervised.pdf))
+- 15:00-16:00: Machine Learning for Bioimage analysis. Supervised Learning (MK) ([pdf](https://github.com/IAFIG-RMS/Python-for-Bioimage-Analysis/blob/master/sessions/day05-machine-learning-for-bioimage-analysis/session04_supervised.pdf))
+- 16:00-17:00: Machine Learning for Bioimage analysis. Deep Learning (MK) ([pdf](https://github.com/IAFIG-RMS/Python-for-Bioimage-Analysis/blob/master/sessions/day05-machine-learning-for-bioimage-analysis/session05_deep_learning.pdf))
 
 ## How to use this repository
 
