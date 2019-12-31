@@ -1,8 +1,8 @@
-# IAFIG-RMS-bioimage-training
+# IAFIG-RMS Python for Bioimage Analysis
 
 
 
-Image Analysis Focused Interest Group of the Royal Microscopy Society Bioimage Analysis Course.
+Image Analysis Focused Interest Group of the Royal Microscopical Society (IAFIG-RMS) Python for Bioimage Analysis.
 
 ![RMS logo](/resources/image002small.png)
 
