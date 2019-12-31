@@ -109,4 +109,4 @@ Using `%matplotlib widget` provides interactive elements for plots inside notebo
 
 
 
-![RMS logo](/Users/dwaithe/Documents/teaching/2019_IAFIG_BioImage_Course/Bioimage-training/resources/image002small.png)
+![RMS logo](/resources/image002small.png)
