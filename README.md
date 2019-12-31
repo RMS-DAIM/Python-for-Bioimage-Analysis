@@ -3,6 +3,7 @@
 
 
 Image Analysis Focused Interest Group of the Royal Microscopy Society Bioimage Analysis Course.
+
 ![RMS logo](/resources/image002small.png)
 
 ## Aim:
