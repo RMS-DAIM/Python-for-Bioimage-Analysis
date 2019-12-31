@@ -3,6 +3,7 @@
 
 
 Image Analysis Focused Interest Group of the Royal Microscopy Society Bioimage Analysis Course.
+![RMS logo](/resources/image002small.png)
 
 ## Aim:
 The aim of this week-long course is to develop motivated students/staff toward becoming independent BioImage Analysts in a facility or research role. Students will be taught theory and algorithms relating to bioimage analysis using Python as a coding language.
@@ -109,4 +110,3 @@ Using `%matplotlib widget` provides interactive elements for plots inside notebo
 
 
 
-![RMS logo](/resources/image002small.png)
