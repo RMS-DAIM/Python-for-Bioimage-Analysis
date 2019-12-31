@@ -1,7 +1,5 @@
 # IAFIG-RMS Python for Bioimage Analysis Course
 
-
-
 Image Analysis Focused Interest Group of the Royal Microscopical Society (IAFIG-RMS) Python for Bioimage Analysis Course.
 
 ![RMS logo](/resources/image002small.png)
@@ -109,5 +107,16 @@ Using `%matplotlib widget` provides interactive elements for plots inside notebo
   * Restart Jupyter Lab.
 2. Instead of plots you see 'Loading widget...'. You probably just need to completely shut down Jupyter Lab and restart it.
 
+### A Note on 'Releases'
 
+For each time this course is delivered we will create a new release.
+We will use a two number naming system, e.g. `v1.0`; this first number will be changed for each new delivery, the second number (after the point) will be updated when minor changes relating to that delivery are made.
+
+As an example: the release for the first time this course was delivered is `v1.0`; however, this does not include the recordings for all lectures.
+These will be added later as new versions, e.g. `v1.2`.
+The second time this course is delivered, we will update the version number to `v2.0`.
+
+A list of major releases will be kept updated in this file:
+
+* `v1.*` - Materials for the course delivered 2019-12-09 -- 2019-12-13 at the Bioinformatics Training Room, Craik-Marshall Building, Downing Site, University of Cambridge, UK
 
