@@ -1,4 +1,7 @@
 # IAFIG-RMS-bioimage-training
+
+
+
 Image Analysis Focused Interest Group of the Royal Microscopy Society Bioimage Analysis Course.
 
 ## Aim:
@@ -103,3 +106,7 @@ Using `%matplotlib widget` provides interactive elements for plots inside notebo
   * `jupyter lab build`
   * Restart Jupyter Lab.
 2. Instead of plots you see 'Loading widget...'. You probably just need to completely shut down Jupyter Lab and restart it.
+
+
+
+![RMS logo](/Users/dwaithe/Documents/teaching/2019_IAFIG_BioImage_Course/Bioimage-training/resources/image002small.png)
