@@ -55,8 +55,8 @@ Todd Fallesen (TD)
 - 15:00-17:00: Practical (DW) ([practical notebook](https://github.com/IAFIG-RMS/Python-for-Bioimage-Analysis/blob/master/sessions/day02-segmentation-and-colocalization/02_colocalization/2019_IAFIG_colocalization_practical.ipynb))
 #### Wednesday (ImageJ Interaction and OMERO interaction):
 - 9:30-10:00: Research spotlight talk. (Virginie Uhlmann, 25+5 min, “Quantifying morphology from bioimages with parametric model")
-- 10:00-10:50: Using ImageJ within Python (CN)
-- 11:00-12:30: Practical (CN)
+- 10:00-10:50: Using ImageJ within Python (CN, [video](https://youtu.be/5q4vHM0zOLk))
+- 11:00-12:30: Working with the Community (CN, [video](https://youtu.be/IkJnV1UE7cI))
 - 12:30-13:30: Lunch
 - 13:30-15:00: OMERO and Python interfacing (DW) ([pdf](https://github.com/IAFIG-RMS/Python-for-Bioimage-Analysis/blob/master/sessions/day03-imagej-interaction-and-OMERO-interaction/03_OMERO-interaction/2019_OMERO-interaction.pdf)) ([practical notebook](https://github.com/IAFIG-RMS/Python-for-Bioimage-Analysis/blob/master/sessions/day03-imagej-interaction-and-OMERO-interaction/03_OMERO-interaction/omero-python3.ipynb))
 - 15:00-17:00: Free time
