@@ -2,6 +2,8 @@
 
 ## `pyimagej`
 
+The audio recording for this talk can be found [here](https://youtu.be/5q4vHM0zOLk).
+
 ### Why?
 
 * Why combine Python & ImageJ?: https://imagej.net/Python.
@@ -29,6 +31,8 @@
 * Allows GPU-accellerated ImageJ/FIJI functions and python-based interaction with those tool.
 
 ## Engaging with Developers and Developmental Packages
+
+The audio recording for this talk can be found [here](https://youtu.be/IkJnV1UE7cI).
 
 ### GitHub - Commits, Releases and Issues
 
