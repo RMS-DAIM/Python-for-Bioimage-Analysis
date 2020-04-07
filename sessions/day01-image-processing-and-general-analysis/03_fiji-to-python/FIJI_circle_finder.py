@@ -25,6 +25,6 @@ IJ.run("Analyze Particles...", "display");
 
 #save the results table as a CSV
 #https://www.ini.uzh.ch/~acardona/fiji-tutorial/#s2
-save_string = directory + 'Results_biology.csv'
+save_string = directory + 'Results_random_circles_CoronaTime.csv'
 IJ.saveAs("Results", save_string);
 #table = ResultsTable.getResultsTable()
